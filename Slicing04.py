@@ -7,5 +7,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return   s[-1*n:]
-print(main( s="codeschooluz", n=3))
+    return   s[:n]
+print(main(s="rtgrewrrew", n=2))
+
